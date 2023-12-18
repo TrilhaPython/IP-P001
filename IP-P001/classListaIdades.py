@@ -12,24 +12,24 @@ class ListaIdades(AnaliseDados):
 
     def mostraMediana(self):
         self.__lista.sort()
-        mediana = self.__lista[len(self.__lista)//2]
-        print("Mediana:", mediana)
+        mediana_index = len(self.__lista) // 2
+        mediana = self.__lista[mediana_index]
+        return mediana
 
     def mostraMenor(self):
         menor = min(self.__lista)
-        print("Menor:", menor)
+        return menor
 
     def mostraMaior(self):
         maior = max(self.__lista)
-        print("Maior:", maior)
+        return maior
 
     def listarEmOrdem(self):
-        print("Lista de Idades em Ordem:")
-        for idade in sorted(self.__lista):
-            print(idade)
+        lista_ordenada = sorted(self.__lista)
+        return lista_ordenada
 
     def __iter__(self):
         return iter(self.__lista)
 
     def __str__(self):
-        return str(self.__lista)
+        return '\n'.join(str(idade) for idade in self.__lista)

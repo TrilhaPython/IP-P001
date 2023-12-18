@@ -6,7 +6,7 @@ class AnaliseDados(ABC):
         self.__tipoDeDados = tipoDeDados
 
     @abstractmethod
-    def entradaDeDados(self, dado):
+    def entradaDeDados(self):
         pass
 
     @abstractmethod

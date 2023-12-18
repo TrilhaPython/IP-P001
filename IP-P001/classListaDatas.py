@@ -13,20 +13,19 @@ class ListaDatas(AnaliseDados):
     def mostraMediana(self):
         self.__lista.sort(key=lambda x: (x.ano, x.mes, x.dia))
         mediana = self.__lista[len(self.__lista)//2]
-        print("Mediana:", mediana)
+        return mediana
 
     def mostraMenor(self):
         menor = min(self.__lista)
-        print("Menor:", menor)
+        return menor
 
     def mostraMaior(self):
         maior = max(self.__lista)
-        print("Maior:", maior)
+        return maior
 
     def listarEmOrdem(self):
-        print("Lista de Datas em Ordem:")
-        for data in sorted(self.__lista):
-            print(data)
+        lista_ordenada = sorted(self.__lista)
+        return lista_ordenada
 
     def atualizarDiasAntes2019(self):
         for data in self.__lista:
