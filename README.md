@@ -14,4 +14,7 @@ E-mail: matheus.beckerath@hotmail.com
 Nome: Paulo Pereira Marques
 E-mail: paulomarques.ufsb@gmail.com
 
+Nome: Luciano Angelo de Souza Bernardes
+E-mail: lasbernardes@uesc.br
+
 
