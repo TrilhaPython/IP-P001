@@ -3,6 +3,7 @@ from classListaDatas import ListaDatas
 from classListaIdades import ListaIdades
 from classListaNomes import ListaNomes
 from classListaSalarios import ListaSalarios
+from classAnaliseDados import AnaliseDados
 from function import incluirNome, incluirSalario, incluirData, incluirIdade, percorrerListas, calcularReajuste, modificarDiasAntes2019
 
 from abc import ABC, abstractmethod

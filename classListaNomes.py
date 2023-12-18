@@ -1,31 +1,6 @@
 from classData import Data
-from classData import AnaliseDados
-from abc import ABC, abstractmethod
+from classAnaliseDados import AnaliseDados
 
-class AnaliseDados(ABC):
-    @abstractmethod
-    def __init__(self, tipoDeDados):
-        self.__tipoDeDados = tipoDeDados
-
-    @abstractmethod
-    def entradaDeDados(self):
-        pass
-
-    @abstractmethod
-    def mostraMediana(self):
-        pass
-    
-    @abstractmethod
-    def mostraMenor(self):
-        pass
-
-    @abstractmethod
-    def mostraMaior(self):
-        pass
-    
-    @abstractmethod
-    def listarEmOrdem(self):
-        pass
 
 class ListaNomes(AnaliseDados):
     

@@ -3,6 +3,7 @@ from classListaDatas import ListaDatas
 from classListaIdades import ListaIdades
 from classListaNomes import ListaNomes
 from classListaSalarios import ListaSalarios
+from classAnaliseDados import AnaliseDados
 
 def incluirNome(listaNomes):
     nome = input("Digite um nome: ")
